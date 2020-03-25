@@ -1,0 +1,11 @@
+- name: Install git source control
+  apt: pkg=git-core
+  become: yes
+
+- name: Set git email
+  git_config: name=user.email value=flynn.van.osselaer@gmail.com
+  become: yes
+
+- name: Set git email
+  git_config: name=user.name value=FVO123
+  become: yes
