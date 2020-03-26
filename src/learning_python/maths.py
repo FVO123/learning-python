@@ -10,4 +10,8 @@ def subtract(first, second):
 
 
 def multiply(first, second):
-    return first * second 
+    return first * second
+
+
+def divide(first, second):
+    return 0

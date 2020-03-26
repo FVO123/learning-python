@@ -3,6 +3,7 @@
 from learning_python.maths import add
 from learning_python.maths import subtract
 from learning_python.maths import multiply
+from learning_python.maths import divide
 
 
 def test_add():
@@ -15,3 +16,7 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(3, 2) == 6
+
+
+def test_divide():
+    assert divide(6, 2) == 3
