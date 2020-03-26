@@ -15,4 +15,7 @@ def multiply(first, second):
 
 def divide(first, second):
     return first / second
-    
+
+
+def maximum(numbers):
+    return None
