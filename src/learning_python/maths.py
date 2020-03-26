@@ -2,4 +2,4 @@
 
 
 def add(first, second):
-    return 0
+    return first + second
