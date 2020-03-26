@@ -27,3 +27,7 @@ def minimum(numbers):
 
 def is_positive(number):
     return None
+
+
+def add_all(*numbers):
+    return None

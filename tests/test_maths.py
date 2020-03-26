@@ -9,6 +9,7 @@ from learning_python.maths import divide
 from learning_python.maths import maximum
 from learning_python.maths import minimum
 from learning_python.maths import is_positive
+from learning_python.maths import add_all
 
 
 def test_add():
@@ -41,3 +42,7 @@ def test_is_positive_with_positive_number():
 
 def test_is_positive_with_negative_number():
     assert operator.is_(False, is_positive(-11))
+
+
+def test_add_all():
+    assert add_all(1, 2, 3, 4, 5) == 15
