@@ -14,4 +14,5 @@ def multiply(first, second):
 
 
 def divide(first, second):
-    return 0
+    return first / second
+    
