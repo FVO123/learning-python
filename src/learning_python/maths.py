@@ -23,3 +23,7 @@ def maximum(numbers):
 
 def minimum(numbers):
     return None
+
+
+def is_positive(number):
+    return None
