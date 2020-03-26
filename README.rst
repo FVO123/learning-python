@@ -11,10 +11,11 @@ Description
 
 To run the tests do the following in the project directory on your host machine.
 
-1. vagrant up
-2. vagrant ssh
-3. cd /vagrant
-4. ./test.sh
+1. git pull
+2. vagrant up
+3. vagrant ssh
+4. cd /vagrant
+5. ./test.sh
 
 When you have a passing build run the following on your host machine in the project directory.
 
