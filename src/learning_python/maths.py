@@ -6,4 +6,4 @@ def add(first, second):
 
 
 def subtract(first, second):
-    return 0
+    return first - second
