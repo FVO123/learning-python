@@ -5,6 +5,7 @@ from learning_python.maths import subtract
 from learning_python.maths import multiply
 from learning_python.maths import divide
 from learning_python.maths import maximum
+from learning_python.maths import minimum
 
 
 def test_add():
@@ -24,4 +25,8 @@ def test_divide():
 
 
 def test_maximum():
-    assert maximum([10, 20, 4]) == 20
+    assert maximum([10, 20, 4, 5]) == 20
+
+
+def test_minimum():
+    assert minimum([10, 20, 4, 5]) == 4

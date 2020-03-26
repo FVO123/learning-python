@@ -19,3 +19,7 @@ def divide(first, second):
 
 def maximum(numbers):
     return None
+
+
+def minimum(numbers):
+    return None
