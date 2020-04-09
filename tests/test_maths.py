@@ -29,15 +29,15 @@ def test_divide():
 
 
 def test_maximum():
-    assert maximum([10, 20, 4, 5]) == 20
+    assert maximum([10, 21, 4, 5]) == 21
 
 
 def test_minimum():
-    assert minimum([10, 20, 4, 5]) == 4
+    assert minimum([10, 20, 2, 5]) == 2
 
 
 def test_is_positive_with_positive_number():
-    assert is_positive(11)
+    assert operator.is_(True, is_positive(11))
 
 
 def test_is_positive_with_negative_number():
@@ -45,4 +45,4 @@ def test_is_positive_with_negative_number():
 
 
 def test_add_all():
-    assert add_all(1, 2, 3, 4, 5) == 15
+    assert add_all(1, 2, 3, 4, 5, 6) == 21
