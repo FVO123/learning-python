@@ -18,16 +18,16 @@ def divide(first, second):
 
 
 def maximum(numbers):
-    return 20
+    return max(numbers)
 
 
 def minimum(numbers):
-    return 4
+    return min(numbers)
 
 
 def is_positive(number):
-    return 11
+    return number > 0
 
 
 def add_all(*numbers):
-    return 15
+    return sum(numbers)
