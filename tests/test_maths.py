@@ -12,6 +12,7 @@ from learning_python.maths import minimum
 from learning_python.maths import is_positive
 from learning_python.maths import add_all
 from learning_python.maths import sequential_numbers
+from learning_python.maths import string_to_integer
 
 
 def test_add():
@@ -61,3 +62,11 @@ def test_array_of_sequential_numbers():
                                                                   79,
                                                                   80,
                                                                   81])
+
+
+def test_string_to_integer():
+    assert string_to_integer("21") == 21
+
+
+def test_string_to_integer_returns_0_if_not_a_number():
+    assert string_to_integer("coconuts") == 0

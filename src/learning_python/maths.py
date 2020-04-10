@@ -35,3 +35,7 @@ def add_all(*numbers):
 
 def sequential_numbers(first, second):
     return []
+
+
+def string_to_integer(string):
+    return None
