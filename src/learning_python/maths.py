@@ -31,3 +31,7 @@ def is_positive(number):
 
 def add_all(*numbers):
     return sum(numbers)
+
+
+def sequential_numbers(first, second):
+    return []
